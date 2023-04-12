@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNS Drive</title>
+    <link rel="stylesheet" href="webform.css">
+    <!--internal embedded css
+    <style>
+      label{
+        color: blueviolet;
+        display: grid;
+      }
+    </style-->
+</head>
+<body>
+    <form>
+        <h1 style="color:brown">
+            acceture regitration
+        </h1>
+        <label for="firstname" class="h1">Enter first name:</label>
+        <input type="text" name="firstname" placeholder="enter the forst name:" required>
+         <br>  
+         <br>   
+         <label for="lastname" class="h2">Enter last name:</label>
+        <input type="text" name="lastname">
+        <br>
+        <label for="password">enter the password:</label>
+        <input type="text" id="password">
+         <br> 
+         <br>  
+        <p>
+            select you age
+        </p>
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <br>
+        <br>
+        <input type="radio" name="age" value="26-30" id="option-2">
+        <label for="option-2">26-30</label>
+        <br>
+        <label for="security">security quetion</label>
+        <select name="security" id="security">
+            <option value="ops1">which is your favourite first school name</option>
+            <option value="ops2">which is your favourite favaourite place to chill out</option>
+            <option value="ops3">which is your secret things to know</option>
+            </select>
+            <br>
+            <br>
+        <label for="answer">enter your answer</label>
+        <input type="text" id="answer">
+        <br>
+        <input type="submit" value="submmit">
+    </form>
+</body>
+</html>
